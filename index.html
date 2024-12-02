@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>插件使用指南</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">🛠 Google 工具箱</div>
+            <ul class="nav-links">
+                <li><a href="#plugins">插件列表</a></li>
+                <li>
+                    <a href="https://github.com/Jeffrey-mu" target="_blank" class="nav-github-link">
+                        <img src="images/github-mark.svg" alt="GitHub" class="nav-github-icon">
+                        GitHub
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>🚀 解放双手的效率神器</h1>
+            <p>告别重复操作，让这些小帮手为您的工作加速！<br>
+               写代码也要有点甜，让插件给你的工作加点糖 🍬</p>
+        </section>
+
+        <section id="google-channel-manager" class="plugin-section">
+            <h2>
+                Google Channel Manager
+                <a href="https://github.com/Jeffrey-mu/google-channel-manager" class="github-link" target="_blank">
+                    <img src="images/github-mark.svg" alt="GitHub" class="github-icon">
+                    查看源码
+                </a>
+            </h2>
+            <div class="plugin-content">
+                <div class="plugin-info">
+                    <h3>功能特点</h3>
+                    <ul>
+                        <li>批量添加 Google 渠道</li>
+                        <li>支持手动输入渠道名称列表或自动生成渠道名</li>
+                        <li>自动选择产品类型</li>
+                        <li>实时进度显示</li>
+                        <li>失败重试机制（最多3次重试）</li>
+                        <li>详细的成功/失败状态报告</li>
+                    </ul>
+                </div>
+                <div class="plugin-usage">
+                    <h3>使用方法</h3>
+                    <pre><code>1. 在输入框中粘贴渠道名称列表（每行一个）
+   或设置需要生成的渠道数量
+
+2. 选择产品类型
+
+3. 点击"获取数据"按钮开始处理
+
+// 处理过程会显示：
+- 实时进度
+- 成功添加数量
+- 失败的渠道列表（如果有）</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <section id="google-tags-checker" class="plugin-section">
+            <h2>
+                Google Tags Checker
+                <a href="https://github.com/Jeffrey-mu/google-tags-checker" class="github-link" target="_blank">
+                    <img src="images/github-mark.svg" alt="GitHub" class="github-icon">
+                    查看源码
+                </a>
+            </h2>
+            <div class="plugin-content">
+                <div class="plugin-info">
+                    <h3>功能特点</h3>
+                    <ul>
+                        <li>检测 GA4（Google Analytics 4）的安装状态</li>
+                        <li>显示 GA4 的 Measurement ID</li>
+                        <li>检测 Google Publisher Tag (GPT) 广告位</li>
+                        <li>检测 Google AdSense 代码</li>
+                        <li>显示广告位容器和相关代码</li>
+                        <li>支持一键复制检测到的代码</li>
+                    </ul>
+                </div>
+                <div class="plugin-usage">
+                    <h3>使用方法</h3>
+                    <pre><code>1. 在需要检查的网页上点击插件图标
+2. 插件会自动检测并显示：
+   - GA4 安装状态和 ID
+   - 页面上的广告位数量
+   - 每个广告位的详细信息
+   
+3. 可以通过"复制代码"按钮复制任意广告代码</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <section id="yandex-game-details" class="plugin-section">
+            <h2>
+                Yandex Game Details
+                <a href="https://github.com/Jeffrey-mu/yandex-game-details" class="github-link" target="_blank">
+                    <img src="images/github-mark.svg" alt="GitHub" class="github-icon">
+                    查看源码
+                </a>
+            </h2>
+            <div class="plugin-content">
+                <div class="plugin-info">
+                    <h3>功能特点</h3>
+                    <ul>
+                        <li>自动获取 Yandex 游戏信息</li>
+                        <li>提取游戏图标（多种尺寸）</li>
+                        <li>获取游戏 Banner 图</li>
+                        <li>获取游戏基本信息：
+                            <ul>
+                                <li>游戏标题</li>
+                                <li>游戏类型</li>
+                                <li>游戏说明</li>
+                                <li>游戏源地址</li>
+                            </ul>
+                        </li>
+                        <li>自动处理游戏菜单交互</li>
+                        <li>支持图片预览功能</li>
+                    </ul>
+                </div>
+                <div class="plugin-usage">
+                    <h3>使用方法</h3>
+                    <pre><code>1. 在 Yandex 游戏页面上点击插件图标
+2. 点击"获取数据"按钮
+3. 插件会自动：
+   - 打开游戏菜单
+   - 收集游戏信息
+   - 显示完整的游戏详情，包括：
+     * 游戏图标和预览图
+     * 游戏基本信息
+     * 详细说明文本
+
+注意：仅支持 Yandex 游戏网站使用</code></pre>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 插件指南. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
